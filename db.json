@@ -54,7 +54,7 @@
     "id": 1,
     "client" : "Никита",
     "date" : "2019-12-23T18:25:43.511Z",
-    "url" : "http://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4"
+    "url" : "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
     },{
     "id": 2,
     "client" : "Артур",
