@@ -1,80 +1,186 @@
 {
-    "get-categoty-list": [
-    {
-    "id": 1,
-    "category" : "Музыкант"
-    },{
-    "id": 2,
-    "category" : "Певец"
-    },{
-    "id": 3,
-    "category" : "Звезды Youtube"
-    },{
-    "id": 4,
-    "category" : "Звезды Instagram"
-    },{	
-    "id": 5,	
-    "category" : "Блоггеры"	
-    },{	
-    "id": 6,	
-    "category" : "Актеры"	
-    },{	
-    "id": 7,	
-    "category" : "Звезда телевидения"	
-    },{	
-    "id": 8,	
-    "category" : "Комики"
-    }
-  ], 
-"get-list-by-category-id": [
-  {
-    "id" : 1, 
-    "author_list":   [
-      24,22,21,19,18,16,15,14,12,10,9,8,5,2
-    ]
-  },{
-    "id" : 2, 
-    "author_list":   [
-      24,22,21,19,18,16,15,14,12,10,9,8,5,4,2
-    ]
-  },{
-    "id" : 3, 
-    "author_list":   [
-      28,27,25,23,20,17,13,11,7,1
-    ]
-  },{
-    "id" : 4, 
-    "author_list":   [
-      28,26,23,20,17,13,11,7,4,1
-    ]
-  }
-  ],
-"get-video-list": [
-    {
-    "id": 1,
-    "client" : "Никита",
-    "date" : "2019-12-23T18:25:43.511Z",
-    "url" : "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
-    },{
-    "id": 2,
-    "client" : "Артур",
-    "date" : "2020-01-23T18:25:43.511Z",
-    "url" : "https://bezaza.ru/assets/no-wm-_4TKpFbW5R.mp4"
-    },{
-    "id": 3,
-    "client" : "Анфиса",
-    "date" : "2020-01-06T18:25:43.511Z",
-    "url" : "https://bezaza.ru/assets/no-wm-kNIobg1k-.mp4"
-    },{
-    "id": 4,
-    "client" : "АК47",
-    "date" : "2019-12-12T18:25:43.511Z",
-    "url" : "http://bezaza.ru/assets/no-wm-mcH-IoZVrC.mp4"
-    },{	
-    "id": 5,	
-    "client" : "Иван",
-    "date" : "2020-01-16T18:25:43.511Z",
-    "url" : "https://bezaza.ru/assets/wm-5c4bbdc14146c2011dab3eaa.mp4"	
-    }
-  ]
+	"today": [{
+		"id": "1",
+		"ordersSum": 1298,
+		"ordersPcs": 10,
+		"salesSum": 9547,
+		"salesPcs": 28,
+		"stockSum": 3584983,
+		"stockPcs": 4350,
+		"returnSum": 144,
+		"comissionSum": 2865,
+		"toPaySum": 11448
+	}, {
+		"id": "2",
+		"ordersSum": 1298,
+		"ordersPcs": 10,
+		"salesSum": 9547,
+		"salesPcs": 28,
+		"stockSum": 3584983,
+		"stockPcs": 4350,
+		"returnSum": 144,
+		"comissionSum": 2865,
+		"toPaySum": 11448
+	}, {
+		"id": "3",
+		"ordersSum": 1298,
+		"ordersPcs": 10,
+		"salesSum": 9547,
+		"salesPcs": 28,
+		"stockSum": 3584983,
+		"stockPcs": 4350,
+		"returnSum": 144,
+		"comissionSum": 2865,
+		"toPaySum": 11448
+	}, {
+		"id": "4",
+		"ordersSum": 1298,
+		"ordersPcs": 10,
+		"salesSum": 9547,
+		"salesPcs": 28,
+		"stockSum": 3584983,
+		"stockPcs": 4350,
+		"returnSum": 144,
+		"comissionSum": 2865,
+		"toPaySum": 11448
+	}],
+	"yesterday": [{
+		"id": "1",
+		"ordersSum": 15573,
+		"ordersPcs": 138,
+		"salesSum": 48177,
+		"salesPcs": 214,
+		"stockSum": 3584983,
+		"stockPcs": 30485,
+		"returnSum": 10136,
+		"comissionSum": 28654,
+		"toPaySum": 114483
+	}, {
+		"id": "2",
+		"ordersSum": 15573,
+		"ordersPcs": 138,
+		"salesSum": 48177,
+		"salesPcs": 214,
+		"stockSum": 3584983,
+		"stockPcs": 30485,
+		"returnSum": 10136,
+		"comissionSum": 28654,
+		"toPaySum": 114483
+	}, {
+		"id": "3",
+		"ordersSum": 15573,
+		"ordersPcs": 138,
+		"salesSum": 48177,
+		"salesPcs": 214,
+		"stockSum": 3584983,
+		"stockPcs": 30485,
+		"returnSum": 10136,
+		"comissionSum": 28654,
+		"toPaySum": 114483
+	}, {
+		"id": "4",
+		"ordersSum": 15573,
+		"ordersPcs": 138,
+		"salesSum": 48177,
+		"salesPcs": 214,
+		"stockSum": 3584983,
+		"stockPcs": 30485,
+		"returnSum": 10136,
+		"comissionSum": 28654,
+		"toPaySum": 114483
+	}],
+	"week": [{
+		"id": "1",
+		"ordersSum": 109011,
+		"ordersPcs": 966,
+		"salesSum": 330239,
+		"salesPcs": 1498,
+		"stockSum": 25094881,
+		"stockPcs": 4350,
+		"returnSum": 10136,
+		"comissionSum": 200578,
+		"toPaySum": 801381
+	}, {
+
+		"id": "2",
+		"ordersSum": 109011,
+		"ordersPcs": 966,
+		"salesSum": 330239,
+		"salesPcs": 1498,
+		"stockSum": 25094881,
+		"stockPcs": 4350,
+		"returnSum": 10136,
+		"comissionSum": 200578,
+		"toPaySum": 801381
+	}, {
+		"id": "3",
+		"ordersSum": 109011,
+		"ordersPcs": 966,
+		"salesSum": 330239,
+		"salesPcs": 1498,
+		"stockSum": 25094881,
+		"stockPcs": 4350,
+		"returnSum": 10136,
+		"comissionSum": 200578,
+		"toPaySum": 801381
+	}, {
+		"id": "4",
+		"ordersSum": 109011,
+		"ordersPcs": 966,
+		"salesSum": 330239,
+		"salesPcs": 1498,
+		"stockSum": 25094881,
+		"stockPcs": 4350,
+		"returnSum": 10136,
+		"comissionSum": 200578,
+		"toPaySum": 801381
+	}],
+
+	"month": [{
+		"id": "1",
+		"ordersSum": 467190,
+		"ordersPcs": 4140,
+		"salesSum": 1445310,
+		"salesPcs": 6420,
+		"stockSum": 107549490,
+		"stockPcs": 4350,
+		"returnSum": 43440,
+		"comissionSum": 859620,
+		"toPaySum": 3434490
+	}, {
+		"id": "2",
+		"ordersSum": 467190,
+		"ordersPcs": 4140,
+		"salesSum": 1445310,
+		"salesPcs": 6420,
+		"stockSum": 107549490,
+		"stockPcs": 4350,
+		"returnSum": 43440,
+		"comissionSum": 859620,
+		"toPaySum": 3434490
+	}, {
+		"id": "3",
+		"ordersSum": 467190,
+		"ordersPcs": 4140,
+		"salesSum": 1445310,
+		"salesPcs": 6420,
+		"stockSum": 107549490,
+		"stockPcs": 4350,
+		"returnSum": 43440,
+		"comissionSum": 859620,
+		"toPaySum": 3434490
+	}, {
+		"id": "4",
+		"ordersSum": 467190,
+		"ordersPcs": 4140,
+		"salesSum": 1445310,
+		"salesPcs": 6420,
+		"stockSum": 107549490,
+		"stockPcs": 4350,
+		"returnSum": 43440,
+		"comissionSum": 859620,
+		"toPaySum": 3434490
+	}]
+
+
 }
